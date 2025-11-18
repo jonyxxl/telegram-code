@@ -6,15 +6,15 @@ from telethon import TelegramClient, events
 from telethon.errors import RPCError
 
 # 1) my.telegram.org dan API_ID va API_HASH oling va quyiga qo'ying
-API_ID = int(21865287)
-API_HASH = "0360d80b68a06231ec386486953f3a9d"
+API_ID = int(22273718)
+API_HASH = "adcd1567f587a4ccb60f297eab0b3540"
 SESSION_NAME = "session"  # bu fayl .session sifatida saqlanadi
 
 client = TelegramClient(SESSION_NAME, API_ID, API_HASH)
 
 
 SOURCE_CHAT = 777000                         # yangi manba id
-TARGET_CHAT = "@tg_code_for"  # kanal username yoki -100... id
+TARGET_CHAT = "@xusanovme"  # kanal username yoki -100... id
 # ========================
 
 # client = TelegramClient(SESSION, API_ID, API_HASH)
